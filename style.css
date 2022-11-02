@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(47, 30, 199), white) !important;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 900px;
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.note-input {
+    display: flex;
+    justify-content: center;
+}
+
+.note-box{
+    max-height: 20px;
+}
+
+#note-input-form {
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    font-size: larger;
+}
+
+#note-input-button {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: orange;
+    color: white;
+    position: relative;
+    left: -50px;
+}
+
+#note-box-items {
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-block: 25px;
+}
+
+.form-check-label {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    display: block;
+    width: 700px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.form-check-label:hover{
+    background-color: gray;
+}
+
+.form-check-input {
+    height: 15px;
+    width: 15px;
+}
+
+.checkbox{
+    display: flex;
+}
+
+#check{
+    background-color: orange;
+    padding: 10px;
+    margin-left: 0;
+}
+
+#remove{
+    background-color: rgb(44, 160, 85);
+    padding: 10px;
+    margin-left: 0;
+
+}
+
+.form-check-label.checked {
+    text-decoration: line-through;
+    background-color: rgb(198, 198, 198);
+}
